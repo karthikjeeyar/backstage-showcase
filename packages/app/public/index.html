@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="<%= config.getOptionalString('app.title') ?? 'Red Hat Developer Hub' %>"
+      content="<%= config.getOptionalString('app.title') ?? '' %>"
     />
     <% if (config.getOptional('app.branding.iconLogo')) { %>
     <link
@@ -51,7 +51,7 @@
     <link rel="shortcut icon" href="<%= publicPath %>/favicon.ico" />
     <% } %>
 
-    <title><%= config.getOptionalString('app.title') ?? 'Backstage' %></title>
+    <title><%= config.getOptionalString('app.title') ?? '' %></title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
