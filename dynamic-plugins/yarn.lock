@@ -13242,9 +13242,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@red-hat-developer-hub/backstage-plugin-adoption-insights@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@red-hat-developer-hub/backstage-plugin-adoption-insights@npm:0.3.0"
+"@red-hat-developer-hub/backstage-plugin-adoption-insights@npm:0.3.1":
+  version: 0.3.1
+  resolution: "@red-hat-developer-hub/backstage-plugin-adoption-insights@npm:0.3.1"
   dependencies:
     "@backstage/catalog-model": ^1.7.5
     "@backstage/core-components": ^0.17.5
@@ -13266,7 +13266,7 @@ __metadata:
     recharts: ^2.15.1
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: f4311ffdd5c2a204890aad99db9cc08a094eb0c74673b4f7bfde3b49d7322dd03779b0540208b0794d3f02c044af99a42a5f2dac6a231ae077cbe80380503ea5
+  checksum: b67513681af9d502bb9b4e259e32b15e7c72f01e21a9c338debb6a814b6c96d0460479ed3bc6284ae7c54981d9a05150d746ea991ebb9bc491389b78410aaaf0
   languageName: node
   linkType: hard
 
@@ -34294,7 +34294,7 @@ __metadata:
     "@backstage/cli": ^0.34.1
     "@janus-idp/cli": 3.6.1
     "@mui/material": 5.18.0
-    "@red-hat-developer-hub/backstage-plugin-adoption-insights": 0.3.0
+    "@red-hat-developer-hub/backstage-plugin-adoption-insights": 0.3.1
     typescript: 5.9.2
   languageName: unknown
   linkType: soft
